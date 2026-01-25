@@ -5,8 +5,12 @@ Experiment: Library Management System Implementation
 
 The aim of this lab session was to design and implement a relational database for a Library Management System. The task involved building structured tables, defining relationships among entities, and enforcing role-based security to ensure controlled access.
 
+2. Software Requirements :
+   ●	Database:
+         ○	Oracle Database Express Edition (Oracle XE)
+         ○	PostgreSQL Database (PgAdmin)
 
-2. Objective of the Session
+3. Objective of the Session
 
 By the end of the session, the following objectives were achieved:
 
@@ -19,7 +23,7 @@ By the end of the session, the following objectives were achieved:
 •	Maintained referential integrity across tables such as BOOKS, LIBRARY_VISITORS, and BOOK_ISSUE.
 
 
-3. Practical / Experiment Steps
+4. Practical / Experiment Steps
 
 The work was carried out through the following activities:
 
@@ -34,7 +38,7 @@ The work was carried out through the following activities:
 5.Security Setup: Created a role with login privileges and controlled access using GRANT and REVOKE.
 
 
-4. Procedure of the Practical
+5. Procedure of the Practical
 
 Execution was performed in the following order:
 1.	Environment Setup: Logged into DBMS interface and accessed the server instance.
@@ -49,7 +53,7 @@ Execution was performed in the following order:
 
 
 
-5 . I/O Analysis (Input / Output Analysis)
+6 . I/O Analysis (Input / Output Analysis)
 
 Input Queries
 SQL
@@ -196,13 +200,18 @@ Update Book Issue Entry :
 
 <img width="975" height="207" alt="image" src="https://github.com/user-attachments/assets/66038130-5627-43c2-a0f2-1374794a1c9d" />
 
+•	We also confirmed the permissions of the role “librarian” by checking the table privileges.
+
+<img width="563" height="627" alt="image" src="https://github.com/user-attachments/assets/cde893a5-2d03-490f-bcb2-6dc3dae1b263" />
+
+
 
 •	Validation:  Testing confirmed that after the REVOKE command, the librarian could no longer perform operations on the books table, ensuring the security policy is functional.
 
 
  <img width="736" height="136" alt="image" src="https://github.com/user-attachments/assets/6af299c7-3748-4bbf-9a13-126e1734e6c3" />
 
-6. Learning Outcome
+7. Learning Outcome
 
 From this practical, the following knowledge and skills were gained:
 
