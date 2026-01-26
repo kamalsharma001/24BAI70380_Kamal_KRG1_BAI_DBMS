@@ -4,7 +4,12 @@ Experiment: Advanced Data Aggregation and filtering
 
 The aim of this lab session was to understand and implement SQL SELECT queries using clauses such as WHERE, ORDER BY, GROUP BY, and HAVING to efficiently retrieve and manipulate data from relational database tables.
 
-2. Objective of the Session
+2. Software Requirements
+●	Database:
+		○	Oracle Database Express Edition (Oracle XE)
+		○	PostgreSQL Database (PgAdmin)
+
+3. Objective of the Session
 
 By the end of the session, the following objectives were achieved:
 
@@ -21,7 +26,7 @@ By the end of the session, the following objectives were achieved:
 •	To analyze data using aggregate functions like COUNT(), SUM(), AVG(), MIN(), and MAX().
 
 
-3. Practical / Experiment Steps
+4. Practical / Experiment Steps
 
 The experiment was carried out through the following activities:
 
@@ -41,7 +46,7 @@ The experiment was carried out through the following activities:
 
 
 
-4 . Procedure of the Practical
+5 . Procedure of the Practical
 Execution was performed in the following order:
 1.	Environment Setup: Logged into DBMS interface and accessed the server instance.
 2.	Database Setup: Created a dedicated database for the library system.
@@ -60,7 +65,7 @@ Execution was performed in the following order:
 
 7.	Documentation: Saved final SQL script and captured outputs for reporting.
 
-5 . I/O Analysis (Input / Output Analysis)
+6 . I/O Analysis (Input / Output Analysis)
 
 Input Queries
 
@@ -215,7 +220,7 @@ Step 4 Output:
 <img width="639" height="191" alt="image" src="https://github.com/user-attachments/assets/f2d1684d-0ba2-4014-872e-182a10ccef72" />
 
  
-6. Learning Outcome
+7. Learning Outcome
 
 From this practical, the following knowledge and skills were gained:
 
